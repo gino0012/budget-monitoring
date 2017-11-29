@@ -3,7 +3,7 @@
   "version": "0.0.1-alpha",
   "license": "MIT",
   "scripts": {
-    "postinstall": "ng lint && ng build --prod",
+    "postinstall": "ng lint && ng build --prod && ng test --watch=false",
     "ng": "ng",
     "start": "node app.js",
     "build": "ng build",
